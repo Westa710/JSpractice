@@ -12,6 +12,6 @@ function alertTweetable(text) {
   }
 }
 
-console.log(isLessThan140("foo"));
+console.log(isLessThan140("fooo"));
 
 alertTweetable("fooo000");
