@@ -1,0 +1,11 @@
+{
+  "name": "JSpractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Westa710/JSpractice.git",
+  "author": "ko <pleiades1424@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
