@@ -6,6 +6,7 @@
   "author": "ko <pleiades1424@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "sass": "^1.69.7"
   }
 }
