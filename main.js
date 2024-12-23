@@ -75,17 +75,16 @@
 // console.log(num2);
 // console.log(arr3);
 
-const arr4 = [10, 20];
-const arr5 = [30, 40];
+// const arr4 = [10, 20];
+// const arr5 = [30, 40];
 
 
-const arr6 = [...arr4];
-console.log(arr6);
+// const arr6 = [...arr4];
+// console.log(arr6);
 
-const arr7 = [...arr4, ...arr5];
-console.log(arr7);
+// const arr7 = [...arr4, ...arr5];
+// console.log(arr7);
 
-// arr7[1] = 15;
-arr7 = arr5
+// // arr7[1] = 15;
 
-console.log(arr7);
+// console.log(arr7);
