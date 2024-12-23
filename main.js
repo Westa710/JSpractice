@@ -31,3 +31,61 @@
 
 // const message3 = `私の名前は${name}です．年齢は${age}歳です．`
 // console.log(message3)
+
+// const sayHello = (Name = "デフォルト値") => console.log(`こんにちは！${Name}さん！`);
+// sayHello("Westa");
+
+// const myProfile = {
+//     age: 200
+// };
+// const { age = 200, name = "デフォルト値" } = myProfile;
+// console.log(age);
+// console.log(name);
+
+// const name = "Westa";
+// const age = 200;
+
+// const myProfile = {
+//     name: name,
+//     age: age
+// };
+
+// console.log(myProfile);
+
+// const name = "Westa";
+// const age = 200;
+
+// const myProfile = {
+//     name,
+//     age
+// };
+// console.log(myProfile);
+
+// const arr1 = [1, 2, 3];
+// console.log(arr1);
+// console.log(...arr1);
+
+// const sumFunc = (num1, num2) => console.log(num1 + num2);
+// sumFunc(arr1[0], arr1[1]);
+// sumFunc(...arr1);
+
+// const arr2 = [1, 2, 3, 4, 5];
+// const [num1, num2, ...arr3] = arr2;
+// console.log(num1);
+// console.log(num2);
+// console.log(arr3);
+
+const arr4 = [10, 20];
+const arr5 = [30, 40];
+
+
+const arr6 = [...arr4];
+console.log(arr6);
+
+const arr7 = [...arr4, ...arr5];
+console.log(arr7);
+
+// arr7[1] = 15;
+arr7 = arr5
+
+console.log(arr7);
