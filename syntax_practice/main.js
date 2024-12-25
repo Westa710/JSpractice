@@ -88,3 +88,30 @@
 // // arr7[1] = 15;
 
 // console.log(arr7);
+
+const nameArr = ["田中", "山田", "佐藤"]
+// for (let index = 0; index < nameArr.length; index++) {
+//     console.log(nameArr[index]);
+// }
+const nameArrWith_sann = nameArr.map((e, index) => {
+    if (e !== "佐藤") {
+        return `${e}さん`;
+    } else {
+        return e;
+    }
+})
+
+console.log(nameArrWith_sann)
+
+// const numArr = [1, 2, 3, 4, 5];
+// const newNumArr = numArr.filter((e) => {
+//     return e % 2 === 1;
+// })
+
+// console.log(newNumArr);
+
+const checkExceed100 = (num1, num2) => {
+    return num1 + num2 > 100 ? "greater than 100" : "not";
+}
+
+console.log(checkExceed100(50, 60));
